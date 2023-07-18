@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    width: 100%;
+}
+
+.box {
+    width: 80%;
+    height: 640px;
+    background-color: #efe7dd;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.box .titl {
+    width: 100%;
+    height: 50px;
+}
+.box .title {
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+    color: #4d2f0e;
+
+}
+
+.box .itemcontainer {
+    width: 100%;
+    background-color: #f3eee2;
+    height: 480px;
+    overflow-y: scroll;
+}
+
+.box .itemcontainer .itemlist {
+    width: 100%;
+    background-color: #f5f4f1;
+    height: 120px;
+    display: grid;
+    grid-template-columns: 12% 40% 20% 20% 7%;
+    grid-template-rows: 1fr;
+}
+
+.box .itemcontainer .itemlist .itemimg {
+    width: 110px;
+    height: 110px;
+    margin: auto;
+    background-color: rgb(97, 76, 50);
+}
+.box .itemcontainer .itemlist .itemimg .containerimg {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;  
+    object-fit: contain;
+}
+.box .itemcontainer .itemlist .itemdetail {
+    width: 100%;
+    height: 110px;
+    margin: 5px;
+}
+
+.box .itemcontainer .itemlist .itemquantity {
+    width: 100%;
+    height: 110px;
+    margin: 5px;
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+}
+
+.box .itemcontainer .itemlist .itemquantity .btns {
+    margin-top: 40px;
+    height: 20px;
+    width: 20px;
+}
+
+.box .itemcontainer .itemlist .itemquantity button {
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    border: black;
+    border-radius: 3px;
+}
+
+.box .itemcontainer .itemlist .itemquantity button:hover {
+    background-color: #939393;
+    color: white;
+}
+
+.box .itemcontainer .itemlist .itemprice {
+    width: 100%;
+    height: 110px;
+    margin: 5px;
+}
+
+.box .itemcontainer .itemlist .itemdelete {
+    width: 100%;
+    height: 110px;
+    margin: 5px;
+}
+
+.box .itemcontainer .itemlist .itemdelete .deleteicon {
+    width: 80%;
+    height: 60px;
+    margin: 22px auto;
+}
+
+.box .itemcontainer .itemlist .itemdelete .deleteicon .dlt:hover{
+    background-color: #fdeede;
+    height: 35px;
+    width: 35px;
+}
+
+.box .itemcontainer .itemlist h3{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.box .itemcontainer .itemlist h5 {
+    text-align: center;
+}
+
+.box .checkout {
+    width: 70%;
+    height: 45px;
+    margin: auto;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+.box .checkout .btncheck {
+    height: 45px;
+    margin: auto;
+}
+
+.box .checkout .btncheck .btne {
+    width:30%;  
+    height: 45px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    margin: 0 26px;
+}
+
+.box .checkout .btncheck .btnch {
+    width: 50%;
+    height: 45px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    margin: 0 26px;
+}
+
+.box .checkout .full {
+    height: 45px;
+    margin: auto;
+}

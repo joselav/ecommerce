@@ -1,0 +1,33 @@
+.checkoutbox {
+    width: 40%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.checkoutbox form {
+    width: 80%;
+    margin: auto;
+    background-color: #f5dabb;
+}
+
+.checkoutbox form .btncheckout {
+    width: 90%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    margin: 10px 20px;
+    border-radius: 10px;
+    border: black;
+}
+
+.checkoutbox form .btncheckout:hover{
+    background-color: #a07b54;
+}
+
+.hover-disabled {
+    pointer-events: none;
+    opacity: 0.5;
+    cursor: not-allowed;
+    color: black;
+    background-color: #a07b54;
+  }

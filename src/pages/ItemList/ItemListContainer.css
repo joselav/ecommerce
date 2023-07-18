@@ -1,0 +1,14 @@
+.all {
+    background-color:#e0b88d;
+    width:100vw; 
+    height: auto;  
+}
+.listaP {
+    margin: auto;
+    justify-content:center;  
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+

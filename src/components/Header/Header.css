@@ -1,0 +1,17 @@
+.header {
+    background-color: #e0b88d;
+    width: 100vw;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #e0b88d;
+    color: #4d2f0e;
+    font-size: 40px;
+    text-align: center;
+    margin: center;
+    padding-top: 10px;
+    font-family: 'Aladin', cursive;
+}

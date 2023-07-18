@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+.flez{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+.nave {
+    width: 90%;
+    justify-content: flex-start;
+}
+ul {
+    width: 55%;
+    margin:auto;
+    padding:10px 0;
+} 
+.lis {
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+    color: #e0b88d;
+    padding: 0 30px;
+    margin: 0 40px;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.lis:hover {
+    padding:10px;
+    background-color: #b08455;
+    color: white;
+    border-radius: 15px;
+    
+}
+
+.carrito {
+    width: 10%;
+    justify-content: flex-end;
+    margin: auto;
+
+}

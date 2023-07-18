@@ -1,0 +1,62 @@
+.addItem{
+    width: 250px;
+    height: 100px;
+    margin: auto;
+}
+
+.addItem .mb {
+    margin: auto;
+    width: 175px;
+    height: 60px;
+}
+
+.addItem .mb .bmp {
+    width: 55px;
+    height: 55px;
+    background-color: #a07b54;
+    color: white;
+    font-size: 16px;
+    border-radius: 6px;
+    border-color: transparent;
+
+}
+
+.addItem .mb .bmp:hover {
+    background-color: #4d2f0e;
+
+}
+
+.addItem .mb .number {
+    width: 55px;
+    height: 55px;
+    font-size: 25px;
+    padding: 4px 20px;
+}
+
+.addItem .addm {
+    width: 250px;
+    height: 40px;
+}
+
+.addItem .addm .add {
+    width: 230px;
+    height: 45px;
+    background-color: #a07b54;
+    color: #ffffff;
+    font-size: 15px;
+    margin: 10px 3px ;
+    border: #a07b54;
+    border-radius: 10px;
+}
+
+.addItem .addm .add:hover {
+    background-color: #4d2f0e;
+    color: #a07b54;
+} 
+
+.hover-disabled {
+    pointer-events: none;
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  

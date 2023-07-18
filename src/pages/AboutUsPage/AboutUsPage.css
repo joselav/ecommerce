@@ -1,0 +1,14 @@
+.aboutUs{
+    background-color: #e0b88d;
+    height: 85vh;
+}
+
+p {
+    width: 70vw;
+    text-align: left;
+    text-align: justify;
+    color: #4d2f0e;
+    margin: auto;
+    font-size: 20px;
+    font-family: 'Concert One', cursive;
+}
